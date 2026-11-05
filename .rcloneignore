@@ -1,0 +1,8 @@
+.venv/**
+.git/**
+.Rproj.user/**
+.RData
+.Rprofile
+.Rhistory
+renv/**
+archive/**

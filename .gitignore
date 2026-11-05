@@ -1,0 +1,20 @@
+# DHS microdata and derived individual-level data must never be committed (DHS data-use terms)
+data/
+/archive/
+/docs/
+*.rds
+*.DTA
+*.dta
+*.zip
+.RData
+.RData*
+.RDataTmp
+.Rhistory
+.Rproj.user/
+Rplots.pdf
+rclone
+output/*/models/
+output/*/logs/
+~$*
+tests/synthetic/out/
+node_modules/
