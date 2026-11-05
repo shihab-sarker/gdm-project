@@ -1,0 +1,51 @@
+# Analysis settings: shared choices in "default", then one block per survey.
+# Only analytic choices are kept here; DHS value codes are written (with
+# comments) next to the code that uses them in src/common/data_preparation.R.
+
+default:
+  # Default glucose scale for scripts (both scales are reported)
+  #   sb267g      : DHS-released FPG in mmol/L (equals sb267 x 1.11 / 18)
+  #   sb267_div18 : sb267 (mg/dL) / 18, without the 1.11 factor
+  # Both scales are analysed in parallel throughout; neither is primary.
+  glucose_scale: "sb267g"
+
+  # Fasting plasma glucose thresholds (mmol/L): WHO 2013 / IADPSG fasting
+  # criterion for GDM, and the diabetes-in-pregnancy threshold.
+  fpg_gdm: 5.1
+  fpg_diabetes: 7.0
+
+  # Covariates of the adjusted models, fixed a priori from the anchor study
+  # (Mazumder et al. 2022). The anchor specification uses duration in weeks.
+  covariates: [age_group, residence, wealth, trimester, bmi]
+  covariates_anchor: [age_group, residence, wealth, gest_weeks, bmi]
+
+  # Decomposition of the concentration index: wealth is the ranking variable
+  # and is therefore left out of the main decomposition.
+  decomp_covariates: [age_group, residence, education, trimester, bmi]
+
+  # Rao-Wu rescaled bootstrap and bootstrap validation
+  bootstrap_B: 1000
+  seed: 123
+
+# Synthetic data used by tests/ (Sys.setenv(R_CONFIG_ACTIVE = "test"))
+test:
+  path_ir: "tests/synthetic/BDIR_SYN.DTA"
+  path_pr: "tests/synthetic/BDPR_SYN.DTA"
+  dir_data: "tests/synthetic/out/data"
+  dir_output: "tests/synthetic/out/output"
+  bootstrap_B: 50
+
+# BDHS 2022: Individual Recode (women) and Household Member Recode (biomarkers).
+# Derived data sets are never committed; output holds tables/, figures/, models/.
+bdhs2022:
+  path_ir: "data/raw/bdhs2022/BDIR81FL.DTA"
+  path_pr: "data/raw/bdhs2022/BDPR81FL.DTA"
+  dir_data: "data/derived/bdhs2022"
+  dir_output: "output/bdhs2022"
+
+# BDHS 2017-18 comparison (analysis/bdhs2017_18/11_bdhs2017.R)
+bdhs2017_18:
+  path_ir: "data/raw/bdhs2017_18/BDIR7RFL.DTA"
+  path_pr: "data/raw/bdhs2017_18/BDPR7RFL.DTA"
+  dir_data: "data/derived/bdhs2017_18"
+  dir_output: "output/bdhs2017_18"
