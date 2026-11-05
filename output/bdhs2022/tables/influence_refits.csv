@@ -1,0 +1,25 @@
+"scale","scenario","n_dropped","term","estimate","ci_lower","ci_upper"
+"released","all women",0,"residenceUrban",1.13806355675036,0.940290223076978,1.37743499551122
+"released","all women",0,"wealthHighest",1.37894899052708,1.02404193318401,1.85685786573542
+"released","all women",0,"trimester3rd",0.661007758999136,0.525703415192385,0.831136425653924
+"released","without women flagged by DFBETAS",16,"residenceUrban",1.01493473675568,0.852394196995034,1.20846965348278
+"released","without women flagged by DFBETAS",16,"wealthHighest",1.49695951520131,1.15031431466532,1.9480656387413
+"released","without women flagged by DFBETAS",16,"trimester3rd",0.555649545315527,0.438417285048696,0.704229572460991
+"released","without women flagged by Cook's distance",1,"residenceUrban",1.13978499236287,0.940581650257538,1.38117709234484
+"released","without women flagged by Cook's distance",1,"wealthHighest",1.37558537453743,1.01796688836791,1.85883759507647
+"released","without women flagged by Cook's distance",1,"trimester3rd",0.662402217334568,0.525676549870904,0.834689501819145
+"released","without women flagged by either",17,"residenceUrban",1.012610402083,0.849531199870991,1.20699490090817
+"released","without women flagged by either",17,"wealthHighest",1.50293570696214,1.15076820469033,1.96287638992392
+"released","without women flagged by either",17,"trimester3rd",0.553611773952132,0.435957923102228,0.703017378552285
+"unconverted","all women",0,"residenceUrban",1.95279206777671,1.33544219863205,2.85553119699067
+"unconverted","all women",0,"wealthHighest",1.17071591342852,0.701636386205932,1.95339890704086
+"unconverted","all women",0,"trimester3rd",0.509176941061982,0.316288124030415,0.819699310886253
+"unconverted","without women flagged by DFBETAS",15,"residenceUrban",2.08872201869452,1.3968794950608,3.12321834976137
+"unconverted","without women flagged by DFBETAS",15,"wealthHighest",1.4197982711049,0.814783849982216,2.47406368041838
+"unconverted","without women flagged by DFBETAS",15,"trimester3rd",0.337276813332866,0.202947829450447,0.560516705795802
+"unconverted","without women flagged by Cook's distance",1,"residenceUrban",1.92471115380302,1.30923537822414,2.82952407732718
+"unconverted","without women flagged by Cook's distance",1,"wealthHighest",1.14969880917708,0.685243370734293,1.92896043694196
+"unconverted","without women flagged by Cook's distance",1,"trimester3rd",0.501018054248406,0.310223381460399,0.809155936284262
+"unconverted","without women flagged by either",15,"residenceUrban",2.08872201869452,1.3968794950608,3.12321834976137
+"unconverted","without women flagged by either",15,"wealthHighest",1.4197982711049,0.814783849982216,2.47406368041838
+"unconverted","without women flagged by either",15,"trimester3rd",0.337276813332866,0.202947829450447,0.560516705795802

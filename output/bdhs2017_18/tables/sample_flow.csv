@@ -1,0 +1,10 @@
+"step","n_remaining","n_excluded"
+"Women interviewed",20127,NA
+"Currently pregnant",1129,18998
+"In household selected for biomarker testing",316,813
+"Aged 18 years or older",280,36
+"Valid fasting plasma glucose value",262,18
+"Fasted at least 8 hours (analytic sample)",262,0
+"No self-reported pre-existing diabetes",256,6
+"FPG below 7.0 mmol/L (outcome sample)",251,5
+"Complete covariate data (model sample)",251,0

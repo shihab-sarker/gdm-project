@@ -1,0 +1,4 @@
+"variable","n","deviance_no_pattern","deviance_factor_1.00","deviance_factor_1.11","best_factor","df","n_unreachable_tenths","n_at_unreachable_tenths"
+"2022 sb267g (known factor 1.11)",7357,763.515662250253,1219.09425995297,53.7611880173157,1.11,47,6,442
+"2022 sb267/18 (known factor 1.00)",7409,490.929137491267,56.6359258273362,943.722797036746,1,47,6,477
+"2017-18 sb335b, all adults tested",11853,73.3167591368426,741.742130353228,1096.81847461377,NA,47,6,1094

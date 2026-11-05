@@ -1,0 +1,171 @@
+"scale","id","scenario","model","measure","term","estimate","ci_lower","ci_upper","p_value","n"
+"released","S0","Main analysis","adjusted","PR","age_group25+",1.13989608519034,0.922680544381915,1.40824805827316,0.223486740469922,264
+"released","S0","Main analysis","adjusted","PR","residenceUrban",1.13806355675036,0.940290223076978,1.37743499551122,0.183166176661867,264
+"released","S0","Main analysis","adjusted","PR","wealthMiddle",1.26760083508043,0.953823599341665,1.68460067270891,0.10178978846008,264
+"released","S0","Main analysis","adjusted","PR","wealthHighest",1.37894899052708,1.02404193318401,1.85685786573542,0.0344895593545448,264
+"released","S0","Main analysis","adjusted","PR","trimester2nd",0.795045547203195,0.654956535533829,0.96509827421209,0.0206557975049476,264
+"released","S0","Main analysis","adjusted","PR","trimester3rd",0.661007758999136,0.525703415192385,0.831136425653924,0.000458314032780211,264
+"released","S0","Main analysis","adjusted","PR","bmi",0.998770283640292,0.974405469465384,1.02374433512798,0.921847599772282,264
+"released","S1","Outcome includes FPG 7.0 mmol/L or above","adjusted","PR","age_group25+",1.13464582961149,0.922165921223519,1.39608407665577,0.231156018530704,270
+"released","S1","Outcome includes FPG 7.0 mmol/L or above","adjusted","PR","residenceUrban",1.13476542470946,0.942809354309689,1.3658037685242,0.18016005228893,270
+"released","S1","Outcome includes FPG 7.0 mmol/L or above","adjusted","PR","wealthMiddle",1.26164038042383,0.958633015961256,1.66042314734998,0.0968336203287512,270
+"released","S1","Outcome includes FPG 7.0 mmol/L or above","adjusted","PR","wealthHighest",1.34523505657771,1.00842194509512,1.79454380802367,0.0437968610719297,270
+"released","S1","Outcome includes FPG 7.0 mmol/L or above","adjusted","PR","trimester2nd",0.797911172964428,0.658650317518881,0.966616462495244,0.0213214469629427,270
+"released","S1","Outcome includes FPG 7.0 mmol/L or above","adjusted","PR","trimester3rd",0.693198760846905,0.557936686245009,0.861252779905334,0.0010402983998329,270
+"released","S1","Outcome includes FPG 7.0 mmol/L or above","adjusted","PR","bmi",1.00395258450528,0.981192948666644,1.02724015017078,0.734854992084963,270
+"released","S2","Restricted to 6 or more months of gestation","adjusted","PR","age_group25+",1.01410003917262,0.706641679487637,1.4553329067648,0.938828286275936,120
+"released","S2","Restricted to 6 or more months of gestation","adjusted","PR","residenceUrban",1.39615887595621,0.985902677152426,1.97713187324061,0.06007509135578,120
+"released","S2","Restricted to 6 or more months of gestation","adjusted","PR","wealthMiddle",1.04909986003047,0.627889858320451,1.75287194359211,0.85333557576386,120
+"released","S2","Restricted to 6 or more months of gestation","adjusted","PR","wealthHighest",1.27539458336198,0.762576579715149,2.13307277791916,0.350218019567198,120
+"released","S2","Restricted to 6 or more months of gestation","adjusted","PR","bmi",1.01737816343911,0.976579069006127,1.05988174464574,0.405500693570815,120
+"released","S3","Excluding months 1-2 of gestation","adjusted","PR","age_group25+",1.13093386476483,0.885176094698071,1.44492312222709,0.323055181528818,223
+"released","S3","Excluding months 1-2 of gestation","adjusted","PR","residenceUrban",1.14656553006971,0.912587742285308,1.44053273327118,0.238623246896681,223
+"released","S3","Excluding months 1-2 of gestation","adjusted","PR","wealthMiddle",1.25609802297632,0.907400502836725,1.73879366210681,0.16824491996009,223
+"released","S3","Excluding months 1-2 of gestation","adjusted","PR","wealthHighest",1.35362607183718,0.944443454980486,1.9400881362402,0.0987411726596426,223
+"released","S3","Excluding months 1-2 of gestation","adjusted","PR","trimester2nd",0.849063528980135,0.65378370623673,1.10267183070966,0.218351975454812,223
+"released","S3","Excluding months 1-2 of gestation","adjusted","PR","trimester3rd",0.715957356722777,0.542826751821093,0.944306696244789,0.0183273481726856,223
+"released","S3","Excluding months 1-2 of gestation","adjusted","PR","bmi",1.00706741554394,0.979095434132906,1.03583853431869,0.622363393705293,223
+"released","S4","Age cut-off at 30 years","adjusted","PR","age_group_alt30+",1.04261375329389,0.814667426875009,1.33434012788183,0.739104035078685,264
+"released","S4","Age cut-off at 30 years","adjusted","PR","residenceUrban",1.13582264753041,0.942545130875976,1.36873349018738,0.179784506744069,264
+"released","S4","Age cut-off at 30 years","adjusted","PR","wealthMiddle",1.27654543473662,0.95983793696279,1.69775353129231,0.0929495531304354,264
+"released","S4","Age cut-off at 30 years","adjusted","PR","wealthHighest",1.40126756432733,1.04100034171882,1.88621531439057,0.0263247904842036,264
+"released","S4","Age cut-off at 30 years","adjusted","PR","trimester2nd",0.80049023306174,0.658376332911606,0.973280145708505,0.0258877656084685,264
+"released","S4","Age cut-off at 30 years","adjusted","PR","trimester3rd",0.663323700134289,0.525384820452849,0.837478195088683,0.000635672618985516,264
+"released","S4","Age cut-off at 30 years","adjusted","PR","bmi",1.00083862730455,0.976737263469069,1.02553470146845,0.946009942734963,264
+"released","S5","Continuous age","adjusted","PR","age_c",1.00767007398716,0.986123544536949,1.02968738920648,0.486629748434364,264
+"released","S5","Continuous age","adjusted","PR","residenceUrban",1.13838869408591,0.942262938032454,1.37533672026692,0.178074224912353,264
+"released","S5","Continuous age","adjusted","PR","wealthMiddle",1.27379212626855,0.95904307023528,1.69183890828353,0.0943193997553866,264
+"released","S5","Continuous age","adjusted","PR","wealthHighest",1.38493466765923,1.0282278795234,1.86538808359624,0.0322997369278538,264
+"released","S5","Continuous age","adjusted","PR","trimester2nd",0.798456893474318,0.658029862252073,0.968851791246576,0.022832975775129,264
+"released","S5","Continuous age","adjusted","PR","trimester3rd",0.660792453759071,0.524784339819881,0.832049727502923,0.000490908670380173,264
+"released","S5","Continuous age","adjusted","PR","bmi",0.999672838150621,0.974866296319417,1.0251106096386,0.979542452148755,264
+"released","S6","Additionally adjusted for education","adjusted","PR","age_group25+",1.13524764325988,0.920376649472024,1.40028238685373,0.234714253362275,264
+"released","S6","Additionally adjusted for education","adjusted","PR","residenceUrban",1.13608800368561,0.93986175826094,1.37328276288905,0.186149305359132,264
+"released","S6","Additionally adjusted for education","adjusted","PR","wealthMiddle",1.27601199856604,0.949352371083788,1.71507089472555,0.105752330592547,264
+"released","S6","Additionally adjusted for education","adjusted","PR","wealthHighest",1.39159432928967,1.00922166117661,1.91883988603005,0.0439211497513668,264
+"released","S6","Additionally adjusted for education","adjusted","PR","trimester2nd",0.7942578741966,0.654046867625783,0.964526552987399,0.0203849338292218,264
+"released","S6","Additionally adjusted for education","adjusted","PR","trimester3rd",0.65904019178835,0.522589984528857,0.831118060526936,0.000493540593512555,264
+"released","S6","Additionally adjusted for education","adjusted","PR","bmi",0.999008341367175,0.974607786736344,1.02401979514574,0.937027798075184,264
+"released","S6","Additionally adjusted for education","adjusted","PR","educationSecondary",0.962619489277527,0.707074043165778,1.31052227145562,0.807901109939344,264
+"released","S6","Additionally adjusted for education","adjusted","PR","educationHigher",0.968863229541906,0.68751944924951,1.36533731312335,0.855919917889667,264
+"released","S7","Additionally adjusted for hypertension","adjusted","PR","age_group25+",1.14968626562583,0.932298287306147,1.41776352843885,0.190988695135416,264
+"released","S7","Additionally adjusted for hypertension","adjusted","PR","residenceUrban",1.14183870113452,0.944610000566644,1.38024752927288,0.169416515087456,264
+"released","S7","Additionally adjusted for hypertension","adjusted","PR","wealthMiddle",1.26294050301335,0.950854028282436,1.67745907017164,0.106497237990397,264
+"released","S7","Additionally adjusted for hypertension","adjusted","PR","wealthHighest",1.38131380259213,1.02583123532415,1.85998218374449,0.0335365758325917,264
+"released","S7","Additionally adjusted for hypertension","adjusted","PR","trimester2nd",0.786410629470236,0.647188537155551,0.955581940406233,0.0159385444278431,264
+"released","S7","Additionally adjusted for hypertension","adjusted","PR","trimester3rd",0.65911951392326,0.524539679246459,0.828228160467362,0.000404985306095839,264
+"released","S7","Additionally adjusted for hypertension","adjusted","PR","bmi",1.00006249504163,0.975425235181622,1.025322042035,0.99606379259834,264
+"released","S7","Additionally adjusted for hypertension","adjusted","PR","hypertensionYes",0.792628125127909,0.464321909339267,1.3530684900004,0.392581111614071,264
+"released","S8","Measured BMI instead of estimated pre-pregnancy BMI","adjusted","PR","age_group25+",1.14160987375065,0.924555065927102,1.40962193802715,0.217095367706467,264
+"released","S8","Measured BMI instead of estimated pre-pregnancy BMI","adjusted","PR","residenceUrban",1.13927493150192,0.940914388875441,1.37945320519542,0.180514109025545,264
+"released","S8","Measured BMI instead of estimated pre-pregnancy BMI","adjusted","PR","wealthMiddle",1.26819487248426,0.954045491695023,1.68578778328266,0.101400965969085,264
+"released","S8","Measured BMI instead of estimated pre-pregnancy BMI","adjusted","PR","wealthHighest",1.38291377279052,1.02723604620573,1.86174395849685,0.0327854074969002,264
+"released","S8","Measured BMI instead of estimated pre-pregnancy BMI","adjusted","PR","trimester2nd",0.797649615542515,0.654852229991179,0.971585466210739,0.0249290486454306,264
+"released","S8","Measured BMI instead of estimated pre-pregnancy BMI","adjusted","PR","trimester3rd",0.666444656095289,0.524461565721325,0.846865640244014,0.00100370707621,264
+"released","S8","Measured BMI instead of estimated pre-pregnancy BMI","adjusted","PR","bmi_measured",0.997229963107963,0.973516233358052,1.02152133189396,0.820466651482621,264
+"released","S9","Excluding women not tested on a fasted-appointment day","adjusted","PR","age_group25+",1.14619795179414,0.926974073597759,1.41726697878193,0.206513655421741,261
+"released","S9","Excluding women not tested on a fasted-appointment day","adjusted","PR","residenceUrban",1.12817811519511,0.931901060129544,1.36579505492597,0.214925074956839,261
+"released","S9","Excluding women not tested on a fasted-appointment day","adjusted","PR","wealthMiddle",1.27548986772629,0.957227106588021,1.69956992596181,0.0962285465379659,261
+"released","S9","Excluding women not tested on a fasted-appointment day","adjusted","PR","wealthHighest",1.40069621558692,1.03882095942274,1.88863140521322,0.0273616003225424,261
+"released","S9","Excluding women not tested on a fasted-appointment day","adjusted","PR","trimester2nd",0.803393477342557,0.662722687166799,0.973923319565059,0.0260587493342868,261
+"released","S9","Excluding women not tested on a fasted-appointment day","adjusted","PR","trimester3rd",0.65629215094809,0.520465857439045,0.827565115443745,0.000431831979681932,261
+"released","S9","Excluding women not tested on a fasted-appointment day","adjusted","PR","bmi",0.999458392711167,0.97517328681593,1.02434827970154,0.965406037290577,261
+"released","S11","Excluding women who drank other than water within 8 hours","adjusted","PR","age_group25+",1.1249232217037,0.909459430864271,1.39143342933467,0.276316758073483,259
+"released","S11","Excluding women who drank other than water within 8 hours","adjusted","PR","residenceUrban",1.11498672711838,0.921834391845638,1.34861034980601,0.260622333016512,259
+"released","S11","Excluding women who drank other than water within 8 hours","adjusted","PR","wealthMiddle",1.2919493210427,0.973642311074252,1.71431852247781,0.0757201590249451,259
+"released","S11","Excluding women who drank other than water within 8 hours","adjusted","PR","wealthHighest",1.39955003134443,1.03894607796573,1.8853146778045,0.0272556032788787,259
+"released","S11","Excluding women who drank other than water within 8 hours","adjusted","PR","trimester2nd",0.778050476249369,0.641248293047788,0.944037668645701,0.0112590788040353,259
+"released","S11","Excluding women who drank other than water within 8 hours","adjusted","PR","trimester3rd",0.659847048166079,0.528487873930343,0.823856418379953,0.000288397454528925,259
+"released","S11","Excluding women who drank other than water within 8 hours","adjusted","PR","bmi",1.00017818444441,0.975865835361031,1.02509624211654,0.988623842120314,259
+"released","S12","National wealth quintiles (poorest two, middle, richest two)","adjusted","PR","age_group25+",1.14440179916542,0.926356492498537,1.41377049606539,0.209833156387835,264
+"released","S12","National wealth quintiles (poorest two, middle, richest two)","adjusted","PR","residenceUrban",1.12896739530725,0.933374543437336,1.36554761282968,0.210199638389741,264
+"released","S12","National wealth quintiles (poorest two, middle, richest two)","adjusted","PR","wealthMiddle",1.21757681717474,0.889393327848013,1.66685903671935,0.217994598940569,264
+"released","S12","National wealth quintiles (poorest two, middle, richest two)","adjusted","PR","wealthHighest",1.39848732413763,1.07422045177302,1.82063820563608,0.0129923434134297,264
+"released","S12","National wealth quintiles (poorest two, middle, richest two)","adjusted","PR","trimester2nd",0.791091987898637,0.650483778946074,0.962093988464083,0.0192025916395438,264
+"released","S12","National wealth quintiles (poorest two, middle, richest two)","adjusted","PR","trimester3rd",0.653882578529994,0.520847825769052,0.820897017038943,0.000298448262065827,264
+"released","S12","National wealth quintiles (poorest two, middle, richest two)","adjusted","PR","bmi",0.996443151352486,0.972281245472663,1.02120549840966,0.775023962778504,264
+"unconverted","S0","Main analysis","adjusted","PR","age_group25+",1.0645382530563,0.728029620312555,1.55658734287986,0.745885486745701,267
+"unconverted","S0","Main analysis","adjusted","PR","residenceUrban",1.95279206777671,1.33544219863205,2.85553119699067,0.000632875423010832,267
+"unconverted","S0","Main analysis","adjusted","PR","wealthMiddle",1.27008944937291,0.783166621681166,2.05974969406331,0.330782728065384,267
+"unconverted","S0","Main analysis","adjusted","PR","wealthHighest",1.17071591342852,0.701636386205932,1.95339890704087,0.544556712956887,267
+"unconverted","S0","Main analysis","adjusted","PR","trimester2nd",0.643390039564781,0.418163692821962,0.989925118122139,0.0449465996065159,267
+"unconverted","S0","Main analysis","adjusted","PR","trimester3rd",0.509176941061982,0.316288124030415,0.819699310886254,0.00570161998472359,267
+"unconverted","S0","Main analysis","adjusted","PR","bmi",1.00013163919909,0.955576679329386,1.04676402989349,0.995462060556343,267
+"unconverted","S1","Outcome includes FPG 7.0 mmol/L or above","adjusted","PR","age_group25+",1.05264555259782,0.722380351884315,1.53390475877922,0.788478393273801,270
+"unconverted","S1","Outcome includes FPG 7.0 mmol/L or above","adjusted","PR","residenceUrban",1.92077071161958,1.32465377881014,2.78515049413856,0.000652402055959912,270
+"unconverted","S1","Outcome includes FPG 7.0 mmol/L or above","adjusted","PR","wealthMiddle",1.27610395953217,0.791107007967603,2.05843368739361,0.315970195647338,270
+"unconverted","S1","Outcome includes FPG 7.0 mmol/L or above","adjusted","PR","wealthHighest",1.14359344863426,0.688747972853672,1.89881644274116,0.602470914254333,270
+"unconverted","S1","Outcome includes FPG 7.0 mmol/L or above","adjusted","PR","trimester2nd",0.640929137039117,0.417113086187169,0.984841215270278,0.0425040427314461,270
+"unconverted","S1","Outcome includes FPG 7.0 mmol/L or above","adjusted","PR","trimester3rd",0.55405444885917,0.350521455796638,0.875770447783194,0.0117555368771326,270
+"unconverted","S1","Outcome includes FPG 7.0 mmol/L or above","adjusted","PR","bmi",1.00287253383912,0.959414419249617,1.04829914888659,0.898554896554675,270
+"unconverted","S2","Restricted to 6 or more months of gestation","adjusted","PR","age_group25+",0.55040048410448,0.286163262708804,1.05862887512124,0.0732732236902073,123
+"unconverted","S2","Restricted to 6 or more months of gestation","adjusted","PR","residenceUrban",2.5540106698013,1.36779698357986,4.76896102255369,0.00368504766560131,123
+"unconverted","S2","Restricted to 6 or more months of gestation","adjusted","PR","wealthMiddle",0.724897701446911,0.333815572500249,1.57415267846027,0.412383878110387,123
+"unconverted","S2","Restricted to 6 or more months of gestation","adjusted","PR","wealthHighest",0.829456169469309,0.363171610463632,1.89441442350735,0.654238044499776,123
+"unconverted","S2","Restricted to 6 or more months of gestation","adjusted","PR","bmi",1.04775937067625,0.992154537914273,1.10648055004384,0.0928786489419683,123
+"unconverted","S3","Excluding months 1-2 of gestation","adjusted","PR","age_group25+",0.856204955371549,0.531479861463675,1.37933152082922,0.521428193284367,226
+"unconverted","S3","Excluding months 1-2 of gestation","adjusted","PR","residenceUrban",2.05229908283558,1.27133999514236,3.31298593727961,0.00348459623182648,226
+"unconverted","S3","Excluding months 1-2 of gestation","adjusted","PR","wealthMiddle",1.21211232940344,0.636877849078003,2.30690437926017,0.556053877841535,226
+"unconverted","S3","Excluding months 1-2 of gestation","adjusted","PR","wealthHighest",1.14312000383765,0.569320961932178,2.29523139063595,0.705400781783571,226
+"unconverted","S3","Excluding months 1-2 of gestation","adjusted","PR","trimester2nd",0.905202620408422,0.507162712210564,1.61563885566981,0.734831038189842,226
+"unconverted","S3","Excluding months 1-2 of gestation","adjusted","PR","trimester3rd",0.751977241274001,0.402453971376633,1.40505451955117,0.369472624047884,226
+"unconverted","S3","Excluding months 1-2 of gestation","adjusted","PR","bmi",1.03186779943861,0.987011431932967,1.0787627387791,0.165460224207516,226
+"unconverted","S4","Age cut-off at 30 years","adjusted","PR","age_group_alt30+",1.3675471402761,0.914181102621676,2.04574911416791,0.127033926844428,267
+"unconverted","S4","Age cut-off at 30 years","adjusted","PR","residenceUrban",1.93350922318594,1.31721055156137,2.83816274604973,0.000852179599165628,267
+"unconverted","S4","Age cut-off at 30 years","adjusted","PR","wealthMiddle",1.24685212392921,0.767903560775188,2.02452534192886,0.370606281084199,267
+"unconverted","S4","Age cut-off at 30 years","adjusted","PR","wealthHighest",1.16776407137623,0.704150715091571,1.93662080740746,0.546225687094597,267
+"unconverted","S4","Age cut-off at 30 years","adjusted","PR","trimester2nd",0.624788992919532,0.405987854047305,0.961509763855936,0.0326772825611549,267
+"unconverted","S4","Age cut-off at 30 years","adjusted","PR","trimester3rd",0.494404316514503,0.309283339381224,0.790329115940124,0.00344456727146172,267
+"unconverted","S4","Age cut-off at 30 years","adjusted","PR","bmi",0.998118273349161,0.955330098004083,1.04282288360316,0.932543558298129,267
+"unconverted","S5","Continuous age","adjusted","PR","age_c",1.01656103463868,0.981546221095998,1.05282493573433,0.356667822239922,267
+"unconverted","S5","Continuous age","adjusted","PR","residenceUrban",1.95678276416871,1.33412937407266,2.87003559067069,0.000671522892353228,267
+"unconverted","S5","Continuous age","adjusted","PR","wealthMiddle",1.2629582231931,0.779075112729257,2.04738085900761,0.341879861282924,267
+"unconverted","S5","Continuous age","adjusted","PR","wealthHighest",1.14865536295673,0.686930530270642,1.92073155101933,0.595679973202503,267
+"unconverted","S5","Continuous age","adjusted","PR","trimester2nd",0.637575027969315,0.415103928425436,0.979277449461891,0.0399570581711186,267
+"unconverted","S5","Continuous age","adjusted","PR","trimester3rd",0.501912642118996,0.311452529813717,0.808843326684633,0.00486025187472634,267
+"unconverted","S5","Continuous age","adjusted","PR","bmi",0.997727797617399,0.953983539849674,1.04347791817805,0.920419479026524,267
+"unconverted","S6","Additionally adjusted for education","adjusted","PR","age_group25+",1.01902026189145,0.699864589675977,1.48371886428213,0.921340506999209,267
+"unconverted","S6","Additionally adjusted for education","adjusted","PR","residenceUrban",1.89662729773472,1.29796285137247,2.77141607150685,0.00104664071896508,267
+"unconverted","S6","Additionally adjusted for education","adjusted","PR","wealthMiddle",1.38820558355606,0.860913901495265,2.2384523456633,0.177429885319353,267
+"unconverted","S6","Additionally adjusted for education","adjusted","PR","wealthHighest",1.3182691862197,0.761403472938604,2.28240835391682,0.322186762666043,267
+"unconverted","S6","Additionally adjusted for education","adjusted","PR","trimester2nd",0.638483760963827,0.412912628564961,0.987282744127498,0.0437586586149507,267
+"unconverted","S6","Additionally adjusted for education","adjusted","PR","trimester3rd",0.489806880254742,0.303632516850445,0.790135333440098,0.00364407761221438,267
+"unconverted","S6","Additionally adjusted for education","adjusted","PR","bmi",1.00417002001919,0.959167869827872,1.0512835769679,0.858172088783714,267
+"unconverted","S6","Additionally adjusted for education","adjusted","PR","educationSecondary",0.624082011165678,0.405095124470825,0.961449134124665,0.0327020928091286,267
+"unconverted","S6","Additionally adjusted for education","adjusted","PR","educationHigher",0.690192013664223,0.393850045361645,1.20950859682766,0.194072439135039,267
+"unconverted","S7","Additionally adjusted for hypertension","adjusted","PR","age_group25+",1.05300823965573,0.718198234060169,1.54390013814761,0.790426110119825,267
+"unconverted","S7","Additionally adjusted for hypertension","adjusted","PR","residenceUrban",1.94735954593561,1.32932485304352,2.85273324459722,0.000705577061493161,267
+"unconverted","S7","Additionally adjusted for hypertension","adjusted","PR","wealthMiddle",1.27679907626318,0.78652906053525,2.07267088140027,0.321250901549864,267
+"unconverted","S7","Additionally adjusted for hypertension","adjusted","PR","wealthHighest",1.16161755957541,0.694206237722901,1.94373844743894,0.566790808507277,267
+"unconverted","S7","Additionally adjusted for hypertension","adjusted","PR","trimester2nd",0.65460023293158,0.42263715971601,1.01387550787538,0.0576498365068838,267
+"unconverted","S7","Additionally adjusted for hypertension","adjusted","PR","trimester3rd",0.512925172755338,0.317542324125924,0.828526507671974,0.00660882461299479,267
+"unconverted","S7","Additionally adjusted for hypertension","adjusted","PR","bmi",0.998233773034109,0.952477443400586,1.04618820375237,0.940862902599393,267
+"unconverted","S7","Additionally adjusted for hypertension","adjusted","PR","hypertensionYes",1.30739257718239,0.716990548043165,2.38395799712649,0.380103426643191,267
+"unconverted","S8","Measured BMI instead of estimated pre-pregnancy BMI","adjusted","PR","age_group25+",1.06641258998987,0.729930938818035,1.55800467086711,0.738433671102084,267
+"unconverted","S8","Measured BMI instead of estimated pre-pregnancy BMI","adjusted","PR","residenceUrban",1.95400973475723,1.33639612185516,2.8570526216626,0.000623906188225847,267
+"unconverted","S8","Measured BMI instead of estimated pre-pregnancy BMI","adjusted","PR","wealthMiddle",1.27017364584275,0.783282919736266,2.05971692978658,0.330566966028967,267
+"unconverted","S8","Measured BMI instead of estimated pre-pregnancy BMI","adjusted","PR","wealthHighest",1.17259570415927,0.702578044705132,1.95705045976756,0.540680205536204,267
+"unconverted","S8","Measured BMI instead of estimated pre-pregnancy BMI","adjusted","PR","trimester2nd",0.644241401504964,0.420179414852402,0.987785143065315,0.0438685030805725,267
+"unconverted","S8","Measured BMI instead of estimated pre-pregnancy BMI","adjusted","PR","trimester3rd",0.510323825308089,0.318004856369504,0.818951036315229,0.00554567068280645,267
+"unconverted","S8","Measured BMI instead of estimated pre-pregnancy BMI","adjusted","PR","bmi_measured",0.999025561801595,0.954442177472755,1.04569150095159,0.966459743893994,267
+"unconverted","S9","Excluding women not tested on a fasted-appointment day","adjusted","PR","age_group25+",1.0782349651302,0.735318207465798,1.58107147113367,0.698437750709054,264
+"unconverted","S9","Excluding women not tested on a fasted-appointment day","adjusted","PR","residenceUrban",1.94264334490318,1.32194495595509,2.85478086549378,0.00081228244725023,264
+"unconverted","S9","Excluding women not tested on a fasted-appointment day","adjusted","PR","wealthMiddle",1.32590584231151,0.81197751055585,2.16511698885885,0.258080298669073,264
+"unconverted","S9","Excluding women not tested on a fasted-appointment day","adjusted","PR","wealthHighest",1.22072313987303,0.72429307569534,2.05740608909022,0.452157214607628,264
+"unconverted","S9","Excluding women not tested on a fasted-appointment day","adjusted","PR","trimester2nd",0.650699996815825,0.423346969636304,1.00015003348167,0.0501274063715959,264
+"unconverted","S9","Excluding women not tested on a fasted-appointment day","adjusted","PR","trimester3rd",0.48552273258847,0.299266022855961,0.787701596093436,0.00362946308632809,264
+"unconverted","S9","Excluding women not tested on a fasted-appointment day","adjusted","PR","bmi",1.00266758035088,0.958557329220412,1.04880766756467,0.907177345509185,264
+"unconverted","S11","Excluding women who drank other than water within 8 hours","adjusted","PR","age_group25+",1.04758392909297,0.716157280829345,1.53238976670459,0.809811168552799,262
+"unconverted","S11","Excluding women who drank other than water within 8 hours","adjusted","PR","residenceUrban",1.84595489498428,1.2593512251039,2.70579756178447,0.00182437622055126,262
+"unconverted","S11","Excluding women who drank other than water within 8 hours","adjusted","PR","wealthMiddle",1.33082429288604,0.820936166459856,2.15740683733445,0.244849437916418,262
+"unconverted","S11","Excluding women who drank other than water within 8 hours","adjusted","PR","wealthHighest",1.24929391303791,0.744886957391553,2.09526461118203,0.397076646365111,262
+"unconverted","S11","Excluding women who drank other than water within 8 hours","adjusted","PR","trimester2nd",0.642461822131741,0.418040735562279,0.987361177473922,0.043700700393741,262
+"unconverted","S11","Excluding women who drank other than water within 8 hours","adjusted","PR","trimester3rd",0.496054397526251,0.30751235680488,0.800195373811487,0.00427673952998818,262
+"unconverted","S11","Excluding women who drank other than water within 8 hours","adjusted","PR","bmi",0.997634997879903,0.953158651830578,1.04418670185007,0.918566741359974,262
+"unconverted","S12","National wealth quintiles (poorest two, middle, richest two)","adjusted","PR","age_group25+",1.06586039421365,0.729686674954063,1.55691260228206,0.740342836999634,267
+"unconverted","S12","National wealth quintiles (poorest two, middle, richest two)","adjusted","PR","residenceUrban",1.81420111511753,1.22233151629726,2.69266204970638,0.0033040647592316,267
+"unconverted","S12","National wealth quintiles (poorest two, middle, richest two)","adjusted","PR","wealthMiddle",0.90391997589901,0.483090231111571,1.69134308708586,0.750920175258502,267
+"unconverted","S12","National wealth quintiles (poorest two, middle, richest two)","adjusted","PR","wealthHighest",1.28138321143107,0.827094519426864,1.98519382727282,0.265507514911116,267
+"unconverted","S12","National wealth quintiles (poorest two, middle, richest two)","adjusted","PR","trimester2nd",0.66112707723512,0.425838575471778,1.02641948717119,0.0651223657725584,267
+"unconverted","S12","National wealth quintiles (poorest two, middle, richest two)","adjusted","PR","trimester3rd",0.515272579690116,0.321882672326831,0.824852824357438,0.00598608022011323,267
+"unconverted","S12","National wealth quintiles (poorest two, middle, richest two)","adjusted","PR","bmi",0.995589508116201,0.951999901907153,1.04117496933075,0.845861640500545,267

@@ -1,0 +1,7 @@
+"scale","test","df","F","p_value"
+"released","BMI: Box-Tidwell term (BMI x log BMI)",1,0.565537252989801,0.452935316445387
+"released","Gestational weeks: Box-Tidwell term (weeks x log weeks)",1,1.47947494283733,0.225312048497945
+"released","Trimester indicators added to linear duration",2,0.449703948372464,0.638473383881593
+"unconverted","BMI: Box-Tidwell term (BMI x log BMI)",1,0.262078610190268,0.609263349603657
+"unconverted","Gestational weeks: Box-Tidwell term (weeks x log weeks)",1,5.27960361280433,0.0226163377511729
+"unconverted","Trimester indicators added to linear duration",2,0.704829573568257,0.495428415355063
