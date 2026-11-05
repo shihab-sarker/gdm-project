@@ -21,6 +21,7 @@ src/bdhs2017_18/           reading and renaming the 2017–18 recode, rounding-p
 analysis/bdhs2022/         steps 01-10; each reads from data/ or output/ and writes its own results
 analysis/bdhs2017_18/      step 11, the 2017–18 rerun
 analysis/run_all.R         runs 01-11 in order, for both surveys
+notebooks/                 the same analysis as five R notebooks, with stored results
 tests/                     synthetic-data generator and testthat tests
 data/raw/bdhs2022/         BDHS 2022 recode files (not tracked)
 data/raw/bdhs2017_18/      BDHS 2017–18 recode files (not tracked)
@@ -28,7 +29,7 @@ data/derived/<survey>/     derived data sets (not tracked)
 output/bdhs2022/tables     results as CSV
 output/bdhs2022/figures    figures: vector PDF with embedded Times New Roman, and PNG at 1000 dpi
 output/bdhs2017_18/tables  tables of the 2017–18 rerun
-docs/manuscript/           current manuscript, supplement, title page, highlights; extra/ working documents; grammer/ grammar parts
+docs/manuscript/           current manuscript, supplement, title page, highlights; extra/ working documents; checking/ grammar parts
 docs/journal/              journal guide for authors and a sample paper
 docs/STROBE/               STROBE checklist
 docs/anchor-paper/         anchor paper
@@ -61,18 +62,32 @@ archive/                   earlier code, documents and outputs (not tracked)
 | 10 reviewer checks | log-FPG regression, threshold sweep 4.4–5.4 mmol/L with `Figure_SA2`, FPG by month and trimester, fasting duration, slope per month, relative concentration index of continuous FPG |
 | 11 BDHS 2017–18 | the same analysis on the 2017–18 survey, if its files are in `data/raw/bdhs2017_18/`; results in `output/bdhs2017_18/tables` |
 
+## Notebooks
+
+The notebooks in `notebooks/` are the easiest way to explore the results. Each one explains its steps and shows its tables and graphs under the code, so they can be read on GitHub without the data.
+
+| Notebook | Content | Analysis steps |
+|---|---|---|
+| [`01_data.ipynb`](notebooks/01_data.ipynb) | analytic sample, prevalence, sample characteristics | 01–03 |
+| [`02_modeling.ipynb`](notebooks/02_modeling.ipynb) | prevalence ratios, odds ratios, model diagnostics | 04–05 |
+| [`03_inequality.ipynb`](notebooks/03_inequality.ipynb) | concentration indices, decomposition, sensitivity analyses | 06–07 |
+| [`04_validity.ipynb`](notebooks/04_validity.ipynb) | validity checks, manuscript tables, all figures, scale-independent checks | 08–10 |
+| [`05_bdhs2017.ipynb`](notebooks/05_bdhs2017.ipynb) | the 2017–18 comparison | 11 |
+
+To run them, place the data as described under Running, then open them in order, because each reads what the earlier ones saved. All five take about a minute. They call the same functions in `src/` as the scripts and rewrite the same tables in `output/`. Figures are only shown in the notebooks: the figure files are exported by `analysis/run_all.R`.
+
 ## Final documents
 
-The .docx files in `docs/manuscript/` are the source of truth for the text; no generator builds them, so edit them directly. The manuscript has 59 references. The supplement ends with its own methods note ("Supplementary methods: model checks") and reference list ("Supplementary references", 7 works); other works it cites are in the main list.
+The .docx files in `docs/manuscript/` are the source of truth for the text; no generator builds them, so edit them directly. The manuscript has 60 references. The supplement ends with its own methods note ("Supplementary methods: model checks") and reference list ("Supplementary references", 7 works); other works it cites are in the main list.
 
 | File (GDM_BDHS2022_…) | Content | Pages |
 |---|---|---|
-| `manuscript.docx`, `manuscript.pdf` | manuscript with Tables 1–2 and figure legends | 33 |
+| `manuscript.docx`, `manuscript.pdf` | manuscript with Tables 1–2 and figure legends | 34 |
 | `supplementary.docx` | Tables SA1–SA16, Figs SA1–SA3, methods note and references | 24 |
 | `title_page.docx` | title page and declarations | 2 |
 | `highlights.docx` | highlights | 1 |
 | `submission_todo.docx` | to-do before submission | 5 |
-| `change_log.docx` | change log | 28 |
+| `change_log.docx` | change log | 29 |
 | `claim_verification.docx` | claim verification | 20 |
 | `defence_guide_merged.docx` | reviewer questions and answers | 11 |
 | `grammar_part1_title_abstract_introduction.docx` | text for the grammar check | 6 |
@@ -85,7 +100,7 @@ The .docx files in `docs/manuscript/` are the source of truth for the text; no g
 
 1. Request the BDHS 2022 data from the DHS Program (https://dhsprogram.com) and place `BDIR81FL.DTA` and `BDPR81FL.DTA` in `data/raw/bdhs2022/`. DHS microdata must never be committed; `data/` is git-ignored.
 2. Restore packages with `Rscript -e "renv::restore()"`. The analysis used R 4.6.1 with survey 4.5, car 3.1-5, svydiags 0.7 and logistf 1.26.1 (versions are locked in `renv.lock`).
-3. Run the analysis with `Rscript analysis/run_all.R` (about 40 seconds). To keep a log: `Rscript analysis/run_all.R > output/bdhs2022/run_log.txt 2>&1`.
+3. Run the analysis with `Rscript analysis/run_all.R` (about 45 seconds). To keep a log: `Rscript analysis/run_all.R > output/bdhs2022/run_log.txt 2>&1`.
 4. Run the tests with `Rscript -e "testthat::test_dir('tests/testthat')"`. For the end-to-end run on synthetic data (B = 50), set `RUN_PIPELINE_TEST=true` first.
 5. Figures are written in the upload format: one vector PDF with embedded fonts and one 1000-dpi PNG per figure.
 
