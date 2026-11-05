@@ -1,6 +1,6 @@
-# Glucose calibration, test timing and socioeconomic patterning of fasting-glucose-defined gestational diabetes, BDHS 2022
+# Glucose calibration, test timing and the socioeconomic gradient in survey-measured gestational diabetes, BDHS 2022
 
-R analysis code for the manuscript *Glucose calibration, test timing and socioeconomic patterning of fasting-glucose-defined gestational diabetes: A cross-sectional analysis of the 2022 Bangladesh Demographic and Health Survey*, prepared for *SSM – Population Health*.
+R analysis code for the manuscript *Glucose calibration, test timing and the socioeconomic gradient in survey-measured gestational diabetes: Evidence from the 2022 Bangladesh Demographic and Health Survey*, prepared for *SSM – Population Health*.
 
 The analysis studies pregnant women aged 18 years or older in the BDHS 2022 biomarker subsample. GDM is defined as a single fasting plasma glucose (FPG) of 5.1–6.9 mmol/L (FPG-defined GDM). Every result is reported on two glucose scales: the released variable and the unconverted scale. The analysis estimates:
 
@@ -29,7 +29,7 @@ data/derived/<survey>/     derived data sets (not tracked)
 output/bdhs2022/tables     results as CSV
 output/bdhs2022/figures    figures: vector PDF with embedded Times New Roman, and PNG at 1000 dpi
 output/bdhs2017_18/tables  tables of the 2017–18 rerun
-docs/manuscript/           current manuscript, supplement, title page, highlights; extra/ working documents; checking/ grammar parts
+docs/manuscript/           current manuscript, supplement, title page, highlights; extra/ working documents
 docs/journal/              journal guide for authors and a sample paper
 docs/STROBE/               STROBE checklist
 docs/anchor-paper/         anchor paper
@@ -84,17 +84,12 @@ The .docx files in `docs/manuscript/` are the source of truth for the text; no g
 |---|---|---|
 | `manuscript.docx`, `manuscript.pdf` | manuscript with Tables 1–2 and figure legends | 34 |
 | `supplementary.docx` | Tables SA1–SA16, Figs SA1–SA3, methods note and references | 24 |
-| `title_page.docx` | title page and declarations | 2 |
+| `title_page.docx`, `title_page.pdf` | title page and declarations | 2 |
 | `highlights.docx` | highlights | 1 |
 | `submission_todo.docx` | to-do before submission | 5 |
-| `change_log.docx` | change log | 29 |
+| `change_log.docx` | change log | 32 |
 | `claim_verification.docx` | claim verification | 20 |
 | `defence_guide_merged.docx` | reviewer questions and answers | 11 |
-| `grammar_part1_title_abstract_introduction.docx` | text for the grammar check | 6 |
-| `grammar_part2_methods.docx` | text for the grammar check | 5 |
-| `grammar_part3_results.docx` | text for the grammar check | 3 |
-| `grammar_part4_discussion.docx` | text for the grammar check | 5 |
-| `grammar_part5_conclusions_statements_captions.docx` | text for the grammar check | 6 |
 
 ## Running
 
@@ -110,7 +105,7 @@ The .docx files in `docs/manuscript/` are the source of truth for the text; no g
 - **Glucose scale.** Released-scale GDM (sb267g 5.1–6.9) equals an unconverted FPG of about 4.6–6.3 mmol/L, so the two scales differ only in where the threshold falls; their estimates bound the plausible value.
   - `sb267g` (mmol/L, released) equals `sb267 × 1.11 / 18`, the whole-blood-to-plasma factor, although the survey report states that the HemoCue system already gave plasma-equivalent values.
   - `sb267g` reproduces the report's diabetes estimate for women aged 18+ (16.8%); `sb267 / 18` gives 9.5%, close to the 2017–18 level (10%).
-  - Neither scale is primary: the released scale is analysed because the DHS Program distributes and reports it, and the unconverted scale (`sb267 / 18`) in parallel throughout. The two are the bounds of the plausible prevalence; the 2017–18 match and the rounding-pattern test favour the lower bound.
+  - Neither scale is primary: the released scale is analysed because the DHS Program distributes and reports it, and the unconverted scale (`sb267 / 18`) in parallel throughout. The two are the bounds of the plausible prevalence; the 2017–18 match favours the lower bound.
 - **Survey design.** Weight `v005`/1,000,000; PSU `v021`; the 16 strata defined for sampling errors `v022`. Estimation within the domain of analytic women, keeping all PSUs; CIs use the design degrees of freedom.
 - **Exposures and covariates.** Wealth tertiles from unweighted cut-points of the wealth score in the analytic sample; the continuous score ranks women for the concentration index. Covariates follow Mazumder et al. (2022): age group, residence, wealth tertile, trimester (in place of gestational weeks) and estimated pre-pregnancy BMI. No variable selection.
 - **Diagnostics.** Run on the logistic version of the adjusted model; the Poisson model is refitted without women flagged by DFBETAS or modified Cook's distance.
@@ -119,7 +114,7 @@ The .docx files in `docs/manuscript/` are the source of truth for the text; no g
 
 ## Data and code availability
 
-The BDHS 2022 data are available from the DHS Program to registered users on application and may not be redistributed. This repository contains the analysis code, configuration and synthetic test data.
+The BDHS 2022 data are available from the DHS Program to registered users on application and may not be redistributed. This repository contains the analysis code, configuration and synthetic test data, archived on Zenodo (https://doi.org/10.5281/zenodo.23985656).
 
 ## Citation
 
